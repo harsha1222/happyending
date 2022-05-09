@@ -99,6 +99,17 @@ public class TrainDetails {
 	private int SecondClass;
 	private int SleeperClass;
 	private String trainDate;
+	private String trainName;
+		public String getTrainName() {
+		return trainName;
+	}
+	public void setTrainName(String trainName) {
+		this.trainName = trainName;
+	}
+		public TrainDetails(String trainName) {
+		super();
+		this.trainName = trainName;
+	}
 		public TrainDetails() {
 		super();
 		// TODO Auto-generated constructor stub
